@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
-
-use App\Http\Requests\{
+namespace App\Http\Controllers\Authentication;
+use App\Http\Controllers\Controller;
+use App\Http\Requests\Authentication\{
     RegisterRequest,
     LoginRequest
 };

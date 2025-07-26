@@ -6,7 +6,7 @@ use App\Http\Requests\TaskRequest;
 use App\Services\TaskService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-
+use Illuminate\Routing\Controller;
 class TaskController extends Controller
 {
     public function __construct(protected TaskService $taskService) 
