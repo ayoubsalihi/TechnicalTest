@@ -18,7 +18,7 @@ return new class extends Migration
             $table->renameColumn('name','full_name');
             $table->string('phone_number')->after('email');
             $table->text('image')->after('phone_number');
-            $table->string('adress')->after('image');
+            $table->string('address')->after('image');
         });
     }
 
@@ -31,7 +31,7 @@ return new class extends Migration
             $table->renameColumn('full_name','name');
             $table->dropColumn('phone_number');
             $table->dropColumn('image');
-            $table->dropColumn('adress');
+            $table->dropColumn('address');
         });
     }
 };

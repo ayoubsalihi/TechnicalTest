@@ -13,7 +13,7 @@ it('permet à un utilisateur de s\'inscrire', function () {
         'password' => 'password',
         'password_confirmation' => 'password',
         'phone' => '1234567890',
-        'adress' => '123 Test Street',
+        'address' => '123 Test Street',
         'image' => UploadedFile::fake()->image('avatar.jpg'),
     ]);
 

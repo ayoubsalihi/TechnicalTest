@@ -28,13 +28,13 @@ class UserFactory extends Factory
         'email' => fake()->unique()->safeEmail(),
         'password' => bcrypt('password'),
         'phone_number' => fake()->phoneNumber(),
-        'adress' => fake()->adress(),
+        'address' => fake()->address(),
         'image' => null,
     ];
     }
 
     /**
-     * Indicate that the model's email adress should be unverified.
+     * Indicate that the model's email address should be unverified.
      */
     public function unverified(): static
     {
